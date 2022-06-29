@@ -9,10 +9,8 @@
     font-weight: bold;
 }
 
-.status-bar__kt{
-    font-size: 14px;
-    font: weight 1000px;
-    position: absolute;
+.status-bar__KT{
+    font-size: 88%;
 }
 
 .status-bar img{
