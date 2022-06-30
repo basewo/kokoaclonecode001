@@ -1,8 +1,9 @@
-.friend{
-
+.friends img{
+    border-radius: 42%;
 }
 
 .friends__myprofile{
+    padding: 0px 10px;
 }
 
 .friends__myname{
