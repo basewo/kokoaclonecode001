@@ -1,5 +1,6 @@
 .friends{
-    padding-left: 8px;
+    border: 9px solid rgba(0, 0, 0, 0);
+
 }
 
 
@@ -7,25 +8,32 @@
 .friends h6{
     font-size: 70%;
     font-weight: 800;
-    color: rgba(0,0,0,0.3);
+    color: rgba(0,0,0,0.4);
 
 }
 
 .friends span{
-    position: absolute;
-    padding: 9px 10px;
+
 }
 
 .friends img{
     border-radius: 42%;
 }
 
-.friends__myprofile{
-    padding: 0px 10px;
-}
-
 .friends__myname{
     font-weight: 600;
     position: absolute;
     vertical-align: middle;
+}
+
+.friends__multiprofile{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.friends__channel{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.friends__friends{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
