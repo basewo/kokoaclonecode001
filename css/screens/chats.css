@@ -1,0 +1,14 @@
+.chats__ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.chats__ad__image {
+  max-width: 97%;
+  max-height: 97%;
+  width: auto;
+  height: auto;
+}

@@ -1,17 +1,21 @@
-.screen-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: var(--horizontal-space);
-    padding-left: 12px;
-    padding-bottom: 8px;
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: var(--horizontal-space);
+  padding-left: 16px;
+  padding-bottom: 14px;
 }
 
-.screen-header__title{
-    font-size: 1.5em;
-    font-weight: 900;
+.screen-header__title {
+  font-size: 1.5em;
+  font-weight: 900;
 }
 
-.screen-header__icons span{
-    margin-left: 20px;
+.screen-header__icons {
+  margin-right: 16px;
+}
+
+.screen-header__icons span {
+  margin-left: 20px;
 }
