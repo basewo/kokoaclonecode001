@@ -12,3 +12,38 @@
   width: auto;
   height: auto;
 }
+
+.chats__component-first {
+  border: 9px solid rgba(0, 0, 0, 0);
+  display: flex;
+  align-items: center;
+}
+
+.chats__component-first img {
+  border-radius: 40%;
+  margin-bottom: 10px;
+}
+
+.chats__component-first img {
+  width: 60px;
+  height: 60px;
+}
+
+.chats__component-first__namecomment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.chats__component-first__namecomment__name {
+  padding-left: 9px;
+  font-weight: 400;
+}
+
+.chats__component-first__namecomment__comment {
+  padding-left: 9px;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 12px;
+  font-weight: 400;
+}
