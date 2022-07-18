@@ -6,6 +6,8 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/chatting-header.css";
+@import "components/no-pc.css";
 
 @import "screens/login.css";
 @import "screens/friends.css";

@@ -22,6 +22,18 @@
   color: #2e363e;
 }
 
+@keyframes noti-ani {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .nav__notification {
   background-color: tomato;
   width: 24px;
@@ -35,4 +47,5 @@
   position: fixed;
   margin-left: 20px;
   bottom: 38px;
+  animation: noti-ani 2s ease-in-out infinite;
 }

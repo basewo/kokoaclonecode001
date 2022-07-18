@@ -9,9 +9,8 @@
 </head>
 
 <body class="skybackground">
-    <div class="status-bar">
+    <div class="status-bar skystatus">
         <div class="status-bar__column">
-            <img src="icons/kt20.bmp">
             <img src="icons/5g20.svg">
             <img src="icons/signalcellular20.svg">
             <img src="icons/wifi20.svg">
@@ -26,13 +25,50 @@
         </div>
     </div>
 
-    <div class="chatting">
-        <a href="chats.html"><img src="icons/arrowbackiosnew.svg"></a>
-        <div>백승욱</div>
-        <div class="chatting__btn"><img src="icons/search.svg"><img src="icons/menu.svg"></div>
+    <div class="chatting-header">
+        <div class="chatting-header__column1"><a href="chats.html"><img src="icons/arrowbackiosnew.svg"></a></div>
+        <div class="chatting-header__column2"><span>백승욱</span></div>
+        <div class="chatting-header__column3"><img class="chatting-header__column__search" src="icons/search.svg"><img src="icons/menu.svg"></div>
     </div>
 
+    <div class="chatting-main">
+      <span class="chatting-main__timestamp">Monday, July 18, 2022</span>
+      <div class="chatting-main__message">
+        <img src="pictures/kakaotalkperson.jpg">
+        <div class="chatting-main__message__box">
+            <span class="chatting-main__message__author">백승욱</span>
+            <div class="chatting-main__message__info">
+                <h1 class="chatting-main__message__bubble"><img class="chatting-main__message__call" src="icons/callfill.svg">   Voice Call</h1>
+                <h2 class="chatting-main__message__time">11:30</h2>
+            </div>
+        </div>
+      </div>
 
+    <div class="chatting-main__message">
+        <img src="pictures/kakaotalkperson.jpg">
+        <div class="chatting-main__message__box">
+            <span class="chatting-main__message__author">백승욱</span>
+            <div class="chatting-main__message__info">
+                <h1 class="chatting-main__message__bubble"><img class="chatting-main__message__call"
+                        src="icons/callfill.svg">  51:06</h1>
+                <h2 class="chatting-main__message__time">12:29</h2>
+            </div>
+        </div>
+    </div>
+
+    <form class="reply">
+        <div class="reply__column">
+            <img src="icons/addbox.svg">
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message...">
+        <img src="icons/mood.svg">
+        <button><img class="iconcoloryellow" src="icons/arrowup.svg"></button>
+    </form>
+
+    <div class="no-pc">
+        <span>Your screen is too wide.</span>
+    </div>
 </body>
 
 </html>

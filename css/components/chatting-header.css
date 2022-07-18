@@ -1,0 +1,35 @@
+.chatting-header {
+  position: fixed;
+  top: 32px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5px 2px;
+  font-weight: bold;
+  background-color: rgba(181, 203, 219, 0.5);
+}
+
+.chatting-header img {
+  height: 30px;
+  width: 30px;
+}
+
+.chatting-header__column1 {
+  width: 33%;
+  display: flex;
+  justify-content: flex-start;
+}
+.chatting-header__column2 {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+.chatting-header__column3 {
+  width: 33%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.chatting-header__column__search {
+  margin-right: 15px;
+}

@@ -1,65 +1,81 @@
-.friends{
-    border: 9px solid rgba(0, 0, 0, 0);
+.friends {
+  border: 9px solid rgba(0, 0, 0, 0);
 }
 
-
-
-.friends h4{
-    font-size: 70%;
-    font-weight: 800;
-    color: rgba(0,0,0,0.4);
-
+.friends h4 {
+  font-size: 70%;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.4);
 }
 
-.friends h6{
-    font-weight: 900;
-    color: rgba(0,0,0,0.4);
+.friends h6 {
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.4);
 }
 
-
-.friends img{
-    border-radius: 40%;
-    margin-bottom: 10px;
+.friends img {
+  border-radius: 40%;
+  margin-bottom: 10px;
 }
 
-.friends__myname{
-    padding-left: 9px;
-    font-weight: 600;
+.friends__myname {
+  padding-left: 9px;
+  font-weight: 600;
 }
 
-.friends__component-first{
-    display: flex;
-    align-items: center;
+.friends__component-first {
+  display: flex;
+  align-items: center;
 }
 
-.friends__component-first img{
-    width: 65px;
-    height: 65px;
+.friends__component-first img {
+  width: 65px;
+  height: 65px;
 }
 
-.friends__component{
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    margin-top: 4px;
+.friends__component {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 4px;
 }
 
-.friends__component img{
-    width: 55px;
-    height: 55spx;
+.friends__component img {
+  width: 55px;
+  height: 55spx;
 }
 
-.friends_component__title{
-    padding-top: 6px;
-    margin-top: 6px;
-    display: flex;
-    justify-content:space-between;
+.friends_component__title {
+  padding-top: 6px;
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.friends__component__content{
-    display:flex;
-    align-items:center;
-    justify-content: initial;
+.friends__component__content {
+  display: flex;
+  align-items: center;
+  justify-content: initial;
 }
 
-.friends__component__content span{
-    padding-left: 10px;
+.friends__component__content span {
+  padding-left: 10px;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  animation: hideSplashScreen 0.3s ease-in-out forwards;
+  animation-delay: 1s;
 }

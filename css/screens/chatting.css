@@ -1,24 +1,120 @@
 .skybackground {
-  background-color: rgba(171, 193, 209, 0.8);
+  background-color: rgba(181, 203, 219, 1);
+  height: 500vh;
 }
 
-.chatting {
-  width: auto;
-  position: fixed;
+.skystatus {
+  background-color: rgba(181, 203, 219, 0.5);
+}
+
+.chatting-main {
+  padding: 100px 10px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  padding: 40px 20px;
+}
+
+.chatting-main__timestamp {
+  color: white;
+  background-color: #92a4b2;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+.chatting-main__message {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  align-items: stretch;
+}
+.chatting-main__message > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+}
+.chatting-main__message > span {
+  margin-left: 10px;
+  font-size: 80%;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.chatting-main__message__box {
+  display: flex;
+  flex-direction: column;
+}
+
+.chatting-main__message__info {
+  display: flex;
+  align-items: baseline;
+}
+
+.chatting-main__message__bubble {
+  background-color: white;
+  padding: 12px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.chatting-main__message__call {
+  width: 20px;
+  height: 20px;
+}
+
+.chatting-main__message__time {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 80%;
+}
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
   box-sizing: border-box;
 }
 
-.chatting:nth-child(1) {
-  width: 33%;
+.reply__column:nth-child(1) {
+  width: 10%;
 }
-.chatting:nth-child(2) {
-  text-align: center;
-  width: 33%;
+.reply__column:nth-child(2) {
+  width: 90%;
+  position: relative;
 }
-.chatting:nth-child(3) {
-  width: 33%;
+.reply input {
+  height: 30px;
+  width: 100%;
+  border: var(--main-border);
+  border-radius: 20px;
+}
+
+.reply__column:last-child > img,
+.reply__column:last-child button {
+  position: absolute;
+  right: -2px;
+  top: 2px;
+}
+
+.reply__column:last-child > img {
+  right: 40px;
+  top: 10px;
+  height: 24px;
+  width: 24px;
+}
+
+.iconcoloryellow {
+  height: 24px;
+  width: 24px;
+}
+
+.reply__column button {
+  background-color: var(--yellow);
+  border: none;
+  width: 30;
+  height: 30px;
+  border-radius: 15px;
 }
